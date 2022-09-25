@@ -1,0 +1,16 @@
+.checkbox {
+
+    accent-color: darkred;
+    height: 20px; /* not needed */
+    width: 20px; /* not needed */
+
+    position: relative;
+    left: 5px;
+    top: 5px
+
+
+}
+
+.spanClassName {
+    margin-left: 8px;
+}

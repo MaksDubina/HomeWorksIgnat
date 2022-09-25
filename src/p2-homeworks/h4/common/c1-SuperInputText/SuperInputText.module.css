@@ -1,0 +1,21 @@
+.superInput {
+    border: 1px solid darkgray;
+    /*background-color: black;*/
+    border-radius: 3px;
+
+}
+
+.superInput:focus {
+    outline: none;
+}
+
+.errorInput {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    background: darkred;
+}
+
+.error {
+    /*display: block;*/
+    color: darkred;
+}

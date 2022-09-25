@@ -1,0 +1,83 @@
+/*.message {*/
+/*    float: left;*/
+/*    background: silver;*/
+/*    padding: 1em 1.5em;*/
+/*    border-radius: 1em;*/
+/*    position: relative;*/
+/*    line-height: 1.5em;*/
+
+/*    display: flex;*/
+/*}*/
+
+*{
+
+}
+
+.container {
+    display: flex;
+    padding: 0 0 10px 20px;
+}
+
+.avatar {
+    align-self: end;
+    flex: 0 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.message {
+    color: rgba(150, 170, 145, 1);
+    min-width: 80px;
+    float: left;
+    background: rgba(8, 33, 3, 1);
+    padding: 0.5em 1.5em;
+    border-radius: 1em 1em 1em 0;
+    position: relative;
+    line-height: 1.5em;
+}
+.message .name {
+    color: rgba(159, 153, 187, 1);
+}
+.message .content {
+    display: flex;
+}
+
+.content div:last-child {
+    color: rgba(45, 70, 40, 1);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+.triangle {
+
+    align-self: end;
+    width: 1px;
+    height: 1px;
+    border-top: 0.5em solid transparent;
+    border-right: 1em solid rgba(8, 33, 3, 1);
+    border-bottom: 0.5em solid transparent;
+}
+
+/*.message::before, .message::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 100%;*/
+/*    bottom: 0.5em;*/
+/*    width: 1.8em;*/
+/*    height: 1.8em;*/
+/*    border: .5em solid white;*/
+/*    border-radius: 50%;*/
+/*    background: blue;*/
+/*}*/
+
+/*.message::before {*/
+/*    border-top: none;*/
+/*    height: .9em;*/
+/*    border-radius: 0 0 50% 50% / 0 0 100% 100%;*/
+/*    background: silver;*/
+/*    border-color: silver;*/
+/*    !*margin-right: em;*!*/
+/*    margin-left: -.9em;*/
+/*}*/
